@@ -124,8 +124,8 @@ int main(int argc, char* argv[]) {
     std::cout << "=== CTF STEALTH MASTER - RELIABLE VERSION ===" << std::endl;
     std::cout << "[+] Starting reliable stealth techniques..." << std::endl;
     if (argc < 2) {
-        std::cout << "Usage: server.exe <path_to_target.exe>" << std::endl;
-        std::cout << "Example: server.exe C:\\Windows\\System32\\notepad.exe" << std::endl;
+        std::cout << "Usage: Hide-Paylaod.exe <path_to_target.exe>" << std::endl;
+        std::cout << "Example: Hide-Paylaod.exe C:\\Windows\\System32\\notepad.exe" << std::endl;
         return 1;
     }
     int wideLen = MultiByteToWideChar(CP_UTF8, 0, argv[1], -1, NULL, 0);
