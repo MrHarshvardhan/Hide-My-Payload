@@ -26,7 +26,7 @@ CreateJobObject() + AssignProcessToJobObject()
 4. Matrix solver runs in background as cover
 5. Everything stops when you press Enter
 
-### **5. CTF Advantage:**
+### **5. CTF/Lab Advantage:**
 - Target app fully functional but hidden
 - Only your process visible
 - Legitimate-looking activity (matrix solver)
